@@ -1,5 +1,5 @@
 ## FreeCodeCamp Timestamp Microservice
-By MI MUKIT
+By M MUKIT
 
 This repository is for the freecodecamp api project called "Timestamp Microservice". More details: https://www.freecodecamp.com/challenges/timestamp-microservice
 
