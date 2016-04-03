@@ -1,6 +1,13 @@
 var moment = require("moment");
+var path = require("path");
 var express = require("express");
 var app = express();
+
+app.use(express.static(path.join(__dirname + '/public')));
+
+app.get("/", function(req, res) {
+    res.render("index.html");
+});
 
 app.get("/:data", function(req, res){
   var data = req.params.data;
