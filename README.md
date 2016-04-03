@@ -11,3 +11,31 @@ This repository is for the freecodecamp api project called "Timestamp Microservi
 
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
+### Example Input 
+
+```
+https://freecodecamp-timestamp-microservice-imukit007.c9users.io/December%2015,%202015
+https://freecodecamp-timestamp-microservice-imukit007.c9users.io/1450137600
+```
+
+### Example Output
+
+```
+{ 
+    "unix": 1450137600, 
+    "natural": "December 15, 2015" 
+}
+
+Or
+
+{ 
+    "unix": null, 
+    "natural": null 
+}
+```
+
+### Live Preview
+
+```
+https://freecodecamp-timestamp-microservice-imukit007.c9users.io/
+```
